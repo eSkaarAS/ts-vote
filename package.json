@@ -1,0 +1,17 @@
+{
+  "name": "ts-vote",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts --minify",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.2",
+    "@changesets/cli": "^2.27.6"
+  }
+}
