@@ -1,5 +1,11 @@
 # ts-vote
 
+## 0.0.3
+
+### Patch Changes
+
+- 7513bb2: access needs to be public
+
 ## 0.0.2
 
 ### Patch Changes
