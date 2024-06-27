@@ -1,12 +1,13 @@
 {
   "name": "ts-vote",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts --minify",
+    "release": "pnpm run build && changeset publish",
     "lint": "tsc"
   },
   "devDependencies": {
