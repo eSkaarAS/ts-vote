@@ -1,5 +1,11 @@
 # ts-vote
 
+## 0.0.2
+
+### Patch Changes
+
+- c94f83a: update github settings for publishing
+
 ## 0.0.1
 
 ### Patch Changes
