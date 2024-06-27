@@ -1,5 +1,11 @@
 # ts-vote
 
+## 0.0.4
+
+### Patch Changes
+
+- 9b34d90: delete unnecassary comments in tsconfig
+
 ## 0.0.3
 
 ### Patch Changes
